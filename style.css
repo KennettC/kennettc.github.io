@@ -1,0 +1,208 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255,255,255);
+}
+
+.top {
+text-align: center;
+font-size: 40px;
+font-family: 'Gill Sans', 'Gill   Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#topmenu{
+  height: 35px;
+  font-size: 15px;
+  text-align: right;
+ /* border-radius: 8px;*/
+  
+}
+#topmenu li{
+  display: inline;
+
+  /*padding: 10px;*/}
+  #topmenu li a::before{
+    content: ">";
+  }
+
+#topmenu ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 1px 1px 1px;
+  background-color: lightskyblue;}
+ 
+  #topmenu ul li a:visited{
+    background-color: white;
+  }
+
+#topmenu ul li a:hover{
+  background-color: blue;
+}
+#topmenu ul li a:visited{
+  background-color: white;
+}
+
+.colors {
+border: 2px solid black;
+border-radius: 5px;
+padding: 10px;
+line-height:5px;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 25px;
+margin-right: 25px ;
+padding-left: 30px;
+margin-bottom: 15px;
+}
+.alignment{
+border: 1px solid black;
+padding: 5px;
+width: 135px;
+height: 75px;
+text-align: center;
+}
+.black {
+color: rgb(255,255,255);
+background-color: rgb(0,0,0);
+border: 1px solid black;
+margin-left: 10px;
+margin-bottom: 2px;
+}
+.white{
+color: rgb(0,0,0);
+background-color: rgb(255,255,255);
+}
+.red{
+color: rgb(0,0,0);
+background-color: rgb(255,0,0);
+}
+.black,.white,.red{
+ /*puts all on same line*/
+ display: inline-block;
+}
+.yellow {
+color:black;
+ background-color: rgb(255,255,0);
+ margin-left: 10px;
+ }
+.blue{
+ color:rgb(0,0,0);
+ background-color: rgb(65,105,225);
+ }
+.green {
+ color: rgb(0,0,0);
+ background-color: rgb(0,255,0);
+ }
+.yellow,.blue,.green{
+ /*puts all on same line*/
+ display: inline-block; 
+ }
+.fonts {
+border: 2px solid black;
+border-radius: 5px;
+padding: 10px;
+line-height:5px;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 25PX;
+margin-left: 25px;
+margin-right: 25px ;
+padding-left: 30px;
+margin-bottom: 20px;
+}
+/*to make two columns*/ 
+.column{
+   float: left;
+   width:50%;}
+
+.fontname {
+text-decoration: underline;
+}
+.arial {
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ .Bebas {
+   font-family:"Bebas Neue" ;
+ }
+ .Merriweather{
+   font-family: Merriweather;
+ }
+ .smooch{
+   font-family:"Smooch Sans" ;
+ }
+ .noto {
+   font-family: "Noto Serif";
+ }
+.work{
+font-family: "Work Sans";
+}
+.bold {
+font-weight: bold;
+}
+.italics{
+font-style: italic;
+}
+/*to end columns*/
+.fonts:after {
+content: "";
+display: table;
+clear: both;}
+.styles {
+border: 2px solid black;
+border-radius: 5px;
+padding: 10px;
+line-height:15px;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 25PX;
+margin-left: 25px;
+margin-right: 25px ;
+padding-left: 30px;}
+.h1 {
+ font-weight: 700;
+ font-size: 15px;
+ font-family: "Noto Serif" ;
+}
+.notoserif{
+ line-height:20px;
+ font-family: "Noto Serif" ;
+ margin-left: 25px;
+ margin-right: 25px ;
+ padding-left: 30px;
+}
+.h2 {
+ font-weight: 500;
+ font-size: 15px;
+ font-family: Merriweather;
+}
+.Merri{
+ line-height:20px;
+ font-family: merriweather ;
+ margin-left: 25px;
+ margin-right: 25px ;
+ padding-left: 30px;
+}
+.paragrah {
+ font-weight: 400;
+ font-size: 15px;
+ font-family: Arial;
+}
+.arialstyles{
+ line-height:20px;
+ font-family: arial ;
+ margin-left: 25px;
+ margin-right: 25px ;
+ padding-left: 30px;
+}
+#banner {
+background-image: url("https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+background-size: cover;
+background-position: bottom center;
+height: 300px;
+width: 100%;
+}
+#banner .content h3 {
+color:rgb(0, 0,0);
+top: 50px;
+width: 600px;
+margin: 0 auto;
+font-size: 25px;
+text-align:center;
+}
